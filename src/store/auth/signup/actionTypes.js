@@ -1,0 +1,8 @@
+export const SIGNUP_USER = "SIGNUP_USER"
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS"
+
+// export const LOGOUT_USER = "LOGOUT_USER"
+// export const LOGOUT_USER_SUCCESS = "LOGOUT_USER_SUCCESS"
+export const SIGNUP_API_ERROR = "SIGNUP_API_ERROR"
+
+export const SOCIAL_SIGNUP = "SOCIAL_SIGNUP"

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'inter', sans-serif; 
+}
+
+.landingContainer, .bg-img {
+  background-image: url("../src/assets/images/home-bg-main.cc68c4e4.png");
+  background-size: cover; 
+  background-position: center bottom; 
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+.optionSelect{
+  padding: 5px 10px;
+}
+
+
+.swiper {
+ /*  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ */
+ height: 100px;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: red;
+  width: 100px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.button {
+  @apply hover:bg-[#f4f4f4] border border border-gray-300 hover:border-gray-600 duration-300 transition-all rounded-full px-12 py-2;
+}
+
+.button2 {
+  @apply hover:bg-[#ffffff] border border border-gray-300 hover:border-gray-600 duration-300 transition-all rounded-full px-12 py-2;
+}
+
+.custom-heading {
+  @apply text-3xl sm:text-4xl md:text-6xl font-semibold mb-5;
+}
+
+
+
+
+
+
+
+
+
+.offers-scrollbar::-webkit-scrollbar {
+  width: 1px;
+}
+
+.offers-scrollbar::-webkit-scrollbar-thumb {
+  background: #29a645;
+}
